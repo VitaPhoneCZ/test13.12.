@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h1>Seznam Věcí</h1>
+            <p id="seznam"></p>
+        </section>
+        <section>
+            <h1>Do účtenky</h1>
+            <input type="text" id="prid-neco" placeholder="Zadej název zboží">
+            <input type="text" id="priv-cena" placeholder="Zadej cenu (Kč)" min="1">
+            <button onclick="doUctenky()">Přidat</button>
+        </section>
+        <section>
+            <h1>Účtenka</h1>
+            <p id="uctenka"></p>
+            <p id="celkem-cena"></p>
+        </section>
+        <section>
+            <button onclick="vysypUctenku()">Vymazat celou účtenku</button>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
