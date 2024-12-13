@@ -1,6 +1,6 @@
 const uctenka = [];
 const cena = [];
-const seznam = [];
+const seznam = [ "jojo - 8 Kč", "jojo - 8 Kč", "jojo - 8 Kč", "jojo - 8 Kč", "jojo - 8 Kč" ];
 
 document.getElementById("celkem-cena").innerHTML = "Cena celkem: 0 Kč";
 
@@ -53,3 +53,5 @@ function vypocCeny() {
     document.getElementById("celkem-cena").innerHTML = "Cena celkem: " + celkovaCena + " Kč";
     console.log("vypocet ceny");
 }
+
+vypis(seznam, "seznam");
